@@ -20,3 +20,4 @@ Route::get('/', function () {
 
 Route::get('/upload-tutorial', [UploadController::class,'index']);
 Route::post('store', [UploadController::class,'store']);
+Route::get('show',[UploadController::class,'show']);
